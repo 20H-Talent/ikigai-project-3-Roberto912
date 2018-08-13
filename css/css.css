@@ -1,5 +1,5 @@
 html{
-	background-color:red;
+	background-color:green;
 }
 body{
 	margin: 0.5%;
@@ -76,6 +76,9 @@ input[type="email" ]{
 textarea{
 	border-radius: 5px;
 }
+select{
+	border-radius: 5px;
+}
 /*							tamaño de los input		*/
 #a input{
 	width: 100%
@@ -89,3 +92,13 @@ textarea{
 select{
 	width: 100%
 }
+/* colores cuando ponemos el raton encima de input para escribir*/
+
+.w3-hover-blue:hover{
+color: white;
+background-color: #00FFFF!important;
+border-color: blue;
+border-style: solid;
+}
+
+

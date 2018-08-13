@@ -1,5 +1,5 @@
 html{
-	background-color: #EDE9E9;
+	background-color:red;
 }
 body{
 	margin: 0.5%;
@@ -9,11 +9,13 @@ body{
 header{
 	text-align: center;
 }
+
 /* 			Decoracion de la cabeza						*/
+
 .introd{padding: 2.5% 0 2.5% 0;
 	background-color:#192d47;
 	color:white;
-	width: 90%;
+	width: 100%;
 	margin:0 auto;
  }
 .introd p {margin-top: auto;margin-bottom: auto}
@@ -26,7 +28,9 @@ header{
 	color: #D5D5D5;
 	
 }
+
 /*		Aguste de tamaño para separacion del borde		*/
+
 .text-des {
 	width: 90%;
 	margin: 0 auto;
@@ -42,4 +46,22 @@ main{
 footer{
 	width: 90%;
 	margin: 0 auto;
+}
+
+/*		Lineas entre header y main				*/
+.text-des2 {
+	border-bottom-width:3px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	margin-bottom: 2px;
+}
+.text-des2 p{
+	margin: 0 auto;
+}
+main{
+	border-top-width:1px;
+	border-top-style: solid;
+	border-top-color: black;
+	margin-top: 3px;
+
 }

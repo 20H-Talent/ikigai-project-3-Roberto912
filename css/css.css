@@ -32,7 +32,7 @@ header{
 	
 }
 .text-des2{
-	color: #D5D5D5;
+	color: rgb(150,150,150);
 	
 }
 
@@ -77,29 +77,13 @@ main{
 	margin-top: 3px;
 
 }
-
-
-
-
 /*				retoque de los input			*/
-input[type="text" ]{
-	border-radius: 5px;
-
-}
-input[type="email" ]{
-	border-radius: 5px;
-}
-textarea{
-	border-radius: 5px;
-}
+input[type="text" ],
+input[type="email" ],
+textarea,
 select{
 	border-radius: 5px;
 }
-
-
-
-
-
 /*				tamaño de los input		*/
 #a input{
 	width: 100%
@@ -113,10 +97,6 @@ textarea{
 select{
 	width: 100%
 }
-
-
-
-
 /* 					colores input					 */
 input{
 	background-color: rgb(240,240,240);
@@ -128,22 +108,20 @@ textarea{
 	background-color:rgb(240,240,240)
 }
 .w3-hover-blue:hover{
-color: white;
-background-color: #00FFFF!important;
 border-color: blue;
 border-style: solid;
 }
 textarea:hover{
 	color: white;
-background-color: #00FFFF!important;
 border-color: blue;
-border-style: solid;}
+border-style: solid;
+}
 
-/*	Arreglos mockups			*/
+/*	Arreglos mockups			*/ç
+
 label[for="zip"]{
 	display: block
 }
-
 /*			linea entre Form		*/
 #a{
 	border-style: solid;
@@ -155,12 +133,36 @@ label[for="zip"]{
 #b{
 	margin-bottom: 10px
 }
-/*									*/
+/*				separacion de label					*/
 #a label{
 	display: block;
-	padding-top: 5px;
+	padding-top: 15px;
 	padding-bottom: 5px;
 }
 #a label[for="name"]{
 	padding-top: 10px
 }
+/*				texto:requerido						*/
+::placeholder{
+	text-align:right;
+   }
+
+   /*   separaciones   */
+.text-des2{
+
+	padding-bottom: 20px;
+}
+.text-des{
+	font-size: 1.3em;
+	padding-top: 17px;
+}
+.text-des p{
+	margin-top: 0
+}
+legend{
+	padding-top:15px;
+	font-size: 1.29em; 
+	font-weight: bold
+}
+
+

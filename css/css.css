@@ -1,0 +1,27 @@
+html{
+	background-color: #EDE9E9;
+}
+body{
+	margin: 0.5%;
+	align-items: center;
+	background-color: white;
+}
+header{
+	text-align: center;
+}
+.introd{padding: 2.5% 0 2.5% 0;
+	background-color:#192d47;
+	color:white;
+	width: 90%;
+	margin:0 auto;
+ }
+.introd p {margin-top: auto;margin-bottom: auto}
+
+.text-des{
+	font-weight: bold;	
+}
+.text-des2{
+	color: #D5D5D5;
+
+}
+

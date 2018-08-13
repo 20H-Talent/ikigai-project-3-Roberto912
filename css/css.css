@@ -9,6 +9,7 @@ body{
 header{
 	text-align: center;
 }
+/* 			Decoracion de la cabeza						*/
 .introd{padding: 2.5% 0 2.5% 0;
 	background-color:#192d47;
 	color:white;
@@ -19,9 +20,26 @@ header{
 
 .text-des{
 	font-weight: bold;	
+	
 }
 .text-des2{
 	color: #D5D5D5;
-
+	
 }
-
+/*		Aguste de tamaño para separacion del borde		*/
+.text-des {
+	width: 90%;
+	margin: 0 auto;
+}
+.text-des2{
+	width: 90%;
+	margin: 0 auto;
+}
+main{
+	width: 90%;
+	margin: 0 auto;
+}
+footer{
+	width: 90%;
+	margin: 0 auto;
+}

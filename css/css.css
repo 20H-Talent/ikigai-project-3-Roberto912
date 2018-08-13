@@ -92,8 +92,16 @@ textarea{
 select{
 	width: 100%
 }
-/* colores cuando ponemos el raton encima de input para escribir*/
-
+/* colores input */
+input{
+	background-color: rgb(240,240,240);
+}
+select{
+	background-color:rgb(240,240,240)
+}
+textarea{
+	background-color:rgb(240,240,240)
+}
 .w3-hover-blue:hover{
 color: white;
 background-color: #00FFFF!important;

@@ -9,11 +9,13 @@ body{
 	margin: 0.5%;
 	align-items: center;
 	background-color: white;
-	height: 100%
 }
 header{
 	text-align: center;
 }
+
+
+
 
 /* 			Decoracion de la cabeza						*/
 
@@ -137,3 +139,7 @@ background-color: #00FFFF!important;
 border-color: blue;
 border-style: solid;}
 
+/*	Arreglos mockups			*/
+label[for="zip"]{
+	display: block
+}

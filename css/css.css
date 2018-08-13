@@ -48,6 +48,11 @@ footer{
 	margin: 0 auto;
 }
 
+
+
+
+
+
 /*		Lineas entre header y main				*/
 .text-des2 {
 	border-bottom-width:3px;
@@ -65,6 +70,10 @@ main{
 	margin-top: 3px;
 
 }
+
+
+
+
 /*				retoque de los input			*/
 input[type="text" ]{
 	border-radius: 5px;
@@ -79,7 +88,12 @@ textarea{
 select{
 	border-radius: 5px;
 }
-/*							tamaño de los input		*/
+
+
+
+
+
+/*				tamaño de los input		*/
 #a input{
 	width: 100%
 }
@@ -92,7 +106,11 @@ textarea{
 select{
 	width: 100%
 }
-/* colores input */
+
+
+
+
+/* 					colores input					 */
 input{
 	background-color: rgb(240,240,240);
 }
@@ -108,5 +126,9 @@ background-color: #00FFFF!important;
 border-color: blue;
 border-style: solid;
 }
-
+textarea:hover{
+	color: white;
+background-color: #00FFFF!important;
+border-color: blue;
+border-style: solid;}
 

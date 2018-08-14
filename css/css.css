@@ -164,7 +164,9 @@ legend{
 	font-size: 1.29em; 
 	font-weight: bold
 }
+
 /*	separcion checkbox*/
+
 label[for="CSS"],
 label[for="Javascript"],
 label[for="HTML"]{
@@ -175,3 +177,15 @@ label[for="HTML"]{
 	margin-top:13px
 }
 
+/*			margen y padding de input radio		*/
+
+.R{
+	margin-top: 10px;
+	margin-bottom: 13px;
+}
+label[for="htmlR"],
+label[for="Plain"]{
+	padding-left: 10px;
+}
+
+/**/

@@ -188,4 +188,9 @@ label[for="Plain"]{
 	padding-left: 10px;
 }
 
-/**/
+/*					separacion textarea,arreglos	*/
+textarea{
+	margin-top: 14px;
+	height: 5em;
+	margin-bottom: 25px
+}

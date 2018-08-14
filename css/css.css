@@ -211,6 +211,21 @@ button{
     border-bottom-width: 0px;
     border-left-width: 0px;
     border-top-width: 0px;
+}
 
+/*		decoracion copyright*/
 
+h4{
+	text-align: center;
+	color: #A9A9A9;
+	font-weight: 1px
+}
+
+/*	tamaño letra*/
+
+*{
+	font-size: 1.05em
+}
+.text-des2{
+	font-size: 1.03em
 }

@@ -164,5 +164,14 @@ legend{
 	font-size: 1.29em; 
 	font-weight: bold
 }
-
+/*	separcion checkbox*/
+label[for="CSS"],
+label[for="Javascript"],
+label[for="HTML"]{
+	padding-left: 10px;
+}
+.y{
+	margin-bottom: 13px;
+	margin-top:13px
+}
 

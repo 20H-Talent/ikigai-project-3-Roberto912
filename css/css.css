@@ -168,9 +168,7 @@ legend{
 
 /*	separcion checkbox*/
 
-label[for="CSS"],
-label[for="Javascript"],
-label[for="HTML"]{
+.container{
 	padding-left: 10px;
 }
 .y{
@@ -183,10 +181,6 @@ label[for="HTML"]{
 .R{
 	margin-top: 10px;
 	margin-bottom: 13px;
-}
-label[for="htmlR"],
-label[for="Plain"]{
-	padding-left: 10px;
 }
 
 /*					separacion textarea,arreglos	*/
@@ -304,8 +298,8 @@ input[type="radio"]:checked{
 .container {
     display: block;
     position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
+    padding-left: 25px;
+    margin-bottom: 20px;
     cursor: pointer;
     font-size: 0.8em;
 }
@@ -322,8 +316,8 @@ input[type="radio"]:checked{
     position: absolute;
     top: 0;
     left: 0;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     background-color: #eee;
 }
 
@@ -346,10 +340,10 @@ input[type="radio"]:checked{
 
 /* Personaliza el tikr */
 .container .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
+    left: 7.89px;
+    top: 3px;
+    width: 2.8px;
+    height: 9px;
     border: solid white;
     border-width: 0 3px 3px 0;
     transform: rotate(45deg);

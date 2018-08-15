@@ -238,22 +238,8 @@ input[type="radio"]:checked{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* The container */
-.container {
+/* Crea la esfera*/
+.containe {
     display: block;
     position: relative;
     padding-left: 35px;
@@ -262,15 +248,15 @@ input[type="radio"]:checked{
     user-select: none;
 }
 
-/* Hide the browser's default radio button */
-.container input {
+/* oculta el boton original */
+.containe input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
 }
 
-/* Create a custom radio button */
-.checkmark {
+/* Create un boton personalible */
+.checkmar {
     position: absolute;
     top: 0;
     left: 0;
@@ -280,34 +266,91 @@ input[type="radio"]:checked{
     border-radius: 50%;
 }
 
-/* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
-    background-color: #ccc;
-}
 
-/* When the radio button is checked, add a blue background */
-.container input:checked ~ .checkmark {
+
+/* pone el color de fondo del cirsulo */
+.containe input:checked ~ .checkmar {
     background-color: #2196F3;
 }
 
-/* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
+/* Create el punto del medio */
+.checkmar:after {
     content: "";
     position: absolute;
     display: none;
 }
 
 /* Muestra el punto blanco */
-.container input:checked ~ .checkmark:after {
+.containe input:checked ~ .checkmar:after {
     display: block;
 }
 
 /* posision del punto blanco */
-.container .checkmark:after {
+.containe .checkmar:after {
  	top:7px ;
 	left:7px;
 	width: 6px;
 	height: 6px;
 	border-radius: 50%;
 	background: white;
+}
+
+
+
+
+
+
+/* crea el cuadro (non se ve)*/
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+/* esconde el autentico input */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* pone el cuadro y modifica */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* color de fondo del cuadro */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* crea el tik del medio (no se ve) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* le dice como ponerse todo el contenedor */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Personaliza el tikr */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
 }

@@ -365,7 +365,7 @@ main,
 footer,
 .text-des,
 .text-des2{
-	width: 55%
+	width: 50%
 }
 
 #a input{
@@ -373,6 +373,7 @@ footer,
 }
 
 select{
+	width: 98.5%;
 	padding: 1.5%
 }
 

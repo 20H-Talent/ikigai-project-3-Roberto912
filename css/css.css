@@ -192,6 +192,10 @@ legend{
 	margin-top: 10px;
 	margin-bottom: 13px;
 }
+.Re{
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
 
 /*					separacion textarea,arreglos	*/
 textarea{
@@ -204,7 +208,7 @@ textarea{
 
 button{
 	width: 100%;
-	height:3em;
+	height:2.5em;
 	font-size: 1.3em;
 	font-weight: bold;
 	background-color:#04B4AE;
@@ -357,7 +361,7 @@ input[type="radio"]:checked{
 
 
 .Se{
-	padding-top: 10px
+	padding-top: 20px
 }
 
 

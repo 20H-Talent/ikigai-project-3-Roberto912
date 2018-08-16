@@ -1,9 +1,10 @@
 html{
-	background-color:green;
+	background-color:rgb(210,210,210);
 	height: 100%
 }
 h4{
 	margin-bottom:  0;
+	padding-bottom: 30%
 }
 body{
 	margin: 1.8px;
@@ -16,16 +17,21 @@ header{
 
 
 
-
 /* 			Decoracion de la cabeza						*/
 
-.introd{padding: 2.5% 0 2.5% 0;
+.introd{
+	padding: 2% 0 2% 0;
 	background-color:#192d47;
 	color:white;
 	width: 100%;
 	margin:0 auto;
  }
-.introd p {margin-top: auto;margin-bottom: auto}
+.introd p {
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 100%
+
+}
 
 .text-des{
 	font-weight: bold;	
@@ -350,6 +356,9 @@ input[type="radio"]:checked{
 .Se{
 	padding-top: 10px
 }
+
+
+/* ir asiendo degradacion */
 @media(min-width: 768px){
 
 
@@ -366,7 +375,7 @@ select{
 
 
 }
-
+/* adatar a escritorio */
 @media(min-width: 1024px){
 
 main,

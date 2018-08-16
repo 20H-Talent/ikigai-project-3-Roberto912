@@ -6,7 +6,7 @@ h4{
 	margin-bottom:  0;
 }
 body{
-	margin: 0.5%;
+	margin: 1.8px;
 	align-items: center;
 	background-color: white;
 }
@@ -85,18 +85,19 @@ select{
 	border-radius: 5px;
 }
 /*				tamaño de los input		*/
-#a input{
-	width: 95%;
+#name,#Email,#Phone,#Street,#City{
+	width: 93%;
 	padding: 3%
 }
-input[id="zip"]{
-	width: 50% !important;
+#zip{
+	width: 50% ;;
+	padding: 3%
 }
 textarea{
 	width: 100%
 }
 select{
-	width: 95%;
+	width: 100%;
 	padding: 3%
 }
 /* 					colores input					 */
@@ -351,12 +352,19 @@ input[type="radio"]:checked{
 }
 @media(min-width: 768px){
 
+
 main,
 footer,
 .text-des,
 .text-des2{
 	width: 75%
 }
+select{
+	width: 100%
+}
+
+
+
 }
 
 @media(min-width: 1024px){
@@ -368,14 +376,31 @@ footer,
 	width: 50%
 }
 
-#a input{
+#name,#Email,#Phone,#Street,#City{
+	width: 70%;
+	padding: 1.5%
+}
+#zip{
+	width: 25%;
 	padding: 1.5%
 }
 
 select{
-	width: 98.5%;
+	width: 74.5%;
 	padding: 1.5%
 }
+
+#a label{
+	width: 20%;
+	margin-right: 7%;
+	position: relative;
+	left: 0
+}
+#a div{
+	display: flex;
+	margin: 2% 0 2% 0
+}
+
 
 }
 
